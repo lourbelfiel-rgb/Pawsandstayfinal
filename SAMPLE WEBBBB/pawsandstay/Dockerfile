@@ -32,3 +32,4 @@ RUN chmod +x /docker-entrypoint.sh
 EXPOSE 80
 
 CMD ["/docker-entrypoint.sh"]
+

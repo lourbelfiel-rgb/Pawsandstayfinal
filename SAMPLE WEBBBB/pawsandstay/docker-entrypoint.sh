@@ -10,3 +10,4 @@ sed -i "s/<VirtualHost \*:80>/<VirtualHost *:${PORT}>/" /etc/apache2/sites-enabl
 
 echo "Starting Apache on port ${PORT}..."
 exec apache2-foreground
+
