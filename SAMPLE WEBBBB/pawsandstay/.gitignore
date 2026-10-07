@@ -1,0 +1,14 @@
+# ===========================
+# Paws & Stay — .gitignore
+# ===========================
+
+# Environment secrets — set these in Railway dashboard instead
+.env
+
+# Uploaded receipt images (ephemeral on Railway free tier)
+uploads/*
+!uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
